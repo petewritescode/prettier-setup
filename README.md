@@ -29,7 +29,7 @@ Add the following scripts to your `package.json`:
 ```json
 {
   "scripts": {
-    "format": "prettier --write .",
+    "format": "prettier --list-different --write .",
     "format:check": "prettier --check ."
   }
 }
