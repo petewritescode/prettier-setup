@@ -1,6 +1,6 @@
 /** @type {import('prettier').Config} */
 const config = {
-  proseWrap: true,
+  proseWrap: 'always',
   singleQuote: true,
 };
 
